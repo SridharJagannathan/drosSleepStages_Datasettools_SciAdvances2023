@@ -5,9 +5,7 @@ Repository for extracting and using dataset described in the paper drosSleepStag
 The original dataset location is present as a multi-part series in `dryad`
 
 ## Dataset description
-The original dataset location is present as a multi-part series in `dryad`.
-
-This is a part of the multi-part dataset containing local field potential (lfp) recordings and video data of 16 `Drosophila melanogaster` flies. This part contains:
+This is a part of the multi-part dataset containing local field potential (lfp) recordings and video data of 16 _`drosophila melanogaster`_ flies. This part contains:
 
 ```
 ├── DrosSponSleep_SciAdvances2023_01
@@ -143,7 +141,7 @@ lfp and video recorded from a particular drosophila on 30-10-2018. Within each f
 
 ## Software
 * Matlab 2021b
-* Python 3.6x
+* Python 3.6.x
 
 ## Support
 * Please e-mail me incase you face any difficulty of extracting/utilising the dataset and I will try and get back to you in a few days
