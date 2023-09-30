@@ -134,18 +134,18 @@ lfp and video recorded from a particular drosophila on 30-10-2018. Within each f
 
 * LFP data:
    To extract the LFP data follow the below steps:
-   1. Convert tdt tank files to eeglab format [preprocess_converttdt.m] (https://github.com/SridharJagannathan/drosSleepStages_Datasettools_SciAdvances2023/blob/main/Scripts/dataextraction/preprocess_converttdt.m)
-   2. Interpolate the data between adjacent recording hours [preprocess_interpolation.m] (https://github.com/SridharJagannathan/drosSleepStages_Datasettools_SciAdvances2023/blob/main/Scripts/dataextraction/preprocess_interpolation.m)
+   1. Convert tdt tank files to eeglab format [preprocess_converttdt.m](https://github.com/SridharJagannathan/drosSleepStages_Datasettools_SciAdvances2023/blob/main/Scripts/dataextraction/preprocess_converttdt.m)
+   2. Interpolate the data between adjacent recording hours [preprocess_interpolation.m](https://github.com/SridharJagannathan/drosSleepStages_Datasettools_SciAdvances2023/blob/main/Scripts/dataextraction/preprocess_interpolation.m)
 
 * Calibration data:
    To extract the calibration data follow the below steps:
-   1. Convert tdt tank files of the calibration to eeglab format [preprocess_converttdt.m] (https://github.com/SridharJagannathan/drosSleepStages_Datasettools_SciAdvances2023/blob/main/Scripts/dataextraction/preprocess_converttdt.m)
-   2. Extract the calibration data from the eeglab format [preprocess_calibration.m] (https://github.com/SridharJagannathan/drosSleepStages_Datasettools_SciAdvances2023/blob/main/Scripts/dataextraction/preprocess_calibration.m)
+   1. Convert tdt tank files of the calibration to eeglab format [preprocess_converttdt.m](https://github.com/SridharJagannathan/drosSleepStages_Datasettools_SciAdvances2023/blob/main/Scripts/dataextraction/preprocess_converttdt.m)
+   2. Extract the calibration data from the eeglab format [preprocess_calibration.m](https://github.com/SridharJagannathan/drosSleepStages_Datasettools_SciAdvances2023/blob/main/Scripts/dataextraction/preprocess_calibration.m)
 
 * Video data:
    Some example usage of the video data is given below:
-   1. Check the data integrity to ensure video frames and csv file contain data of similar dimensions [check_videodataintegrity.ipynb] (https://github.com/SridharJagannathan/drosSleepStages_Datasettools_SciAdvances2023/blob/main/Scripts/datachecks/check_videodataintegrity.ipynb)
-   2. Example dataprocessing of movement detection between adjacent frames [motiondetection_thread.ipynb] (https://github.com/SridharJagannathan/drosSleepStages_Datasettools_SciAdvances2023/blob/main/Scripts/dataextraction/motiondetection_thread.ipynb)
+   1. Check the data integrity to ensure video frames and csv file contain data of similar dimensions [check_videodataintegrity.ipynb](https://github.com/SridharJagannathan/drosSleepStages_Datasettools_SciAdvances2023/blob/main/Scripts/datachecks/check_videodataintegrity.ipynb)
+   2. Example dataprocessing of movement detection between adjacent frames [motiondetection_thread.ipynb](https://github.com/SridharJagannathan/drosSleepStages_Datasettools_SciAdvances2023/blob/main/Scripts/dataextraction/motiondetection_thread.ipynb)
 
 ## Software
 * Matlab 2021b
