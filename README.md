@@ -4,12 +4,6 @@ Repository for extracting and using dataset described in the paper drosSleepStag
 ## Dataset location
 The original dataset location is present as a multi-part series in `dryad`
 
-`Still to be updated with correct location`
-
-1. [https://doi.org/10.5061/dryad.51c59zwfc](https://doi.org/10.5061/dryad.51c59zwfc)
-2. [https://doi.org/10.5061/dryad.51c59zwfc](https://doi.org/10.5061/dryad.51c59zwfc)
-
-
 ## Dataset description
 The original dataset location is present as a multi-part series in `dryad`.
 
