@@ -49,12 +49,12 @@ index,size(gb),subsize(gb),flyname,type,datasetname,dryad_datasetname,doi,bucket
 ,,18.54,,video,,DrosSponSleep_SciAdvances2023_08_video_02,,,,yes,
 ,,,,,,,,,,,
 9,72,,14_11122018_SponSleep_LFP,,DrosSponSleep_SciAdvances2023_09,,https://doi.org/10.5061/dryad.9kd51c5qh,258917,yes,,https://datadryad.org/stash/share/Fo2zPqRqdQZzHvKO8VSkzS3VMolbyfzPAdA00LQEou8
-,,18.35,,lfp,,DrosSponSleep_SciAdvances2023_09_lfp_01,,,,,
-,,18.43,,lfp,,DrosSponSleep_SciAdvances2023_09_lfp_02,,,,,
-,,19.73,,video,,DrosSponSleep_SciAdvances2023_09_video_01,,,,,
-,,19.31,,video,,DrosSponSleep_SciAdvances2023_09_video_02,,,,,
+,,18.35,,lfp,,DrosSponSleep_SciAdvances2023_09_lfp_01,,,,yes,
+,,18.43,,lfp,,DrosSponSleep_SciAdvances2023_09_lfp_02,,,,yes,
+,,19.73,,video,,DrosSponSleep_SciAdvances2023_09_video_01,,,,yes,
+,,19.31,,video,,DrosSponSleep_SciAdvances2023_09_video_02,,,,yes,
 ,,,,,,,,,,,
-10,77,,15_13122018_SponSleep_LFP,,DrosSponSleep_SciAdvances2023_10,,https://doi.org/10.5061/dryad.2jm63xsw8,258918,,,
+10,77,,15_13122018_SponSleep_LFP,,DrosSponSleep_SciAdvances2023_10,,https://doi.org/10.5061/dryad.2jm63xsw8,258918,yes,,https://datadryad.org/stash/share/ZvBZylZMYL4QKSry32ENnZK1uzrO3OkSi4ktfoYYx9s
 ,,,,lfp,,DrosSponSleep_SciAdvances2023_10_lfp_01,,,,,
 ,,,,lfp,,DrosSponSleep_SciAdvances2023_10_lfp_02,,,,,
 ,,,,video,,DrosSponSleep_SciAdvances2023_10_video_01,,,,,
