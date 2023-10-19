@@ -3,6 +3,7 @@ Repository for extracting and using dataset described in the paper drosSleepStag
 
 ## Dataset location
 The original dataset location is present as a multi-part series in `dryad`
+To get the location of individual flies they are present in the [dataset_details](https://github.com/SridharJagannathan/drosSleepStages_Datasettools_SciAdvances2023/blob/main/dataset_details.csv)
 
 ## Dataset description
 This is a part of the multi-part dataset containing local field potential (lfp) recordings and video data of 16 _`drosophila melanogaster`_ flies. This part contains:
