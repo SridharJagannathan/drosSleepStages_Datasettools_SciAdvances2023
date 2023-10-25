@@ -4,119 +4,157 @@ Repository for extracting and using dataset described in the paper drosSleepStag
 ## Dataset location
 The original dataset location is present as a multi-part series in `dryad`
 To get the location of individual flies they are present in the [dataset_details](https://github.com/SridharJagannathan/drosSleepStages_Datasettools_SciAdvances2023/blob/main/dataset_details.csv)
+Data for each fly is organised in 16 DOI(s) corresponding to 16 flies.
 
 ## Dataset description
-This is a part of the multi-part dataset containing local field potential (lfp) recordings and video data of 16 _`drosophila melanogaster`_ flies. This part contains:
+This multi-part dataset contains local field potential (lfp) recordings and video data of 16 _`drosophila melanogaster`_ flies. The folder structure(s) should be arranged as follows:
 
 ```
-├── DrosSponSleep_SciAdvances2023_01
-│   ├── 02_27072018_SponSleep_LFP
-│   │   ├── lfp
-│   │   │   ├── 27072018_SponSleep_Calib
-│   │   │   │   └── Block-1
-│   │   │   └── 27072018_SponSleep_LFP
-│   │   └── video
-│   └── 03_14092018_SponSleep_LFP
-│       ├── lfp
-│       │   ├── 14092018_SponSleep_Calib
-│       │   │   └── Block-1
-│       │   └── 14092018_SponSleep_LFP
-│       └── video
-├── DrosSponSleep_SciAdvances2023_02
-│   ├── 04_17092018_SponSleep_LFP
-│   │   ├── lfp
-│   │   │   ├── 17092018_SponSleep_Calib
-│   │   │   │   └── Block-1
-│   │   │   └── 17092018_SponSleep_LFP
-│   │   └── video
-│   └── 06_30102018_SponSleep_LFP
-│       ├── lfp
-│       │   ├── 30102018_SponSleep_Calib
-│       │   │   └── Block-1
-│       │   └── 30102018_SponSleep_LFP
-│       └── video
-├── DrosSponSleep_SciAdvances2023_03
-│   ├── 07_01112018_SponSleep_LFP
-│   │   ├── lfp
-│   │   │   ├── 01112018_SponSleep_Calib
-│   │   │   │   └── Block-1
-│   │   │   └── 01112018_SponSleep_LFP
-│   │   └── video
-│   └── 08_03112018_SponSleep_LFP
-│       ├── lfp
-│       │   ├── 03112018_SponSleep_Calib
-│       │   │   └── Block-1
-│       │   └── 03112018_SponSleep_LFP
-│       └── video
-├── DrosSponSleep_SciAdvances2023_04
-│   ├── 09_13112018_SponSleep_LFP
-│   │   ├── lfp
-│   │   │   ├── 13112018_SponSleep_Calib
-│   │   │   │   └── Block-1
-│   │   │   └── 13112018_SponSleep_LFP
-│   │   └── video
-│   └── 12_28112018_SponSleep_LFP
-│       ├── lfp
-│       │   ├── 28112018_SponSleep_Calib
-│       │   │   └── Block-1
-│       │   └── 28112018_SponSleep_LFP
-│       └── video
-├── DrosSponSleep_SciAdvances2023_05
-│   ├── 14_11122018_SponSleep_LFP
-│   │   ├── lfp
-│   │   │   ├── 11122018_SponSleep_Calib
-│   │   │   │   └── Block-1
-│   │   │   └── 11122018_SponSleep_LFP
-│   │   └── video
-│   └── 15_13122018_SponSleep_LFP
-│       ├── lfp
-│       │   ├── 13122018_SponSleep_Calib
-│       │   │   └── Block-1
-│       │   └── 13122018_SponSleep_LFP
-│       └── video
-├── DrosSponSleep_SciAdvances2023_06
-│   ├── 16_18122018_SponSleep_LFP
-│   │   ├── lfp
-│   │   │   ├── 18122018_SponSleep_Calib
-│   │   │   │   └── Block-1
-│   │   │   └── 18122018_SponSleep_LFP
-│   │   └── video
-│   └── 17_10012019_SponSleep_LFP
-│       ├── lfp
-│       │   ├── 10012019_SponSleep_Calib
-│       │   │   └── Block-1
-│       │   └── 10012019_SponSleep_LFP
-│       └── video
-├── DrosSponSleep_SciAdvances2023_07
-│   ├── 18_17012019_SponSleep_LFP
-│   │   ├── lfp
-│   │   │   ├── 17012019_SponSleep_Calib
-│   │   │   │   └── Block-1
-│   │   │   └── 17012019_SponSleep_LFP
-│   │   └── video
-│   └── 19_22012019_SponSleep_LFP
-│       ├── lfp
-│       │   ├── 22012019_SponSleep_Calib
-│       │   │   └── Block-1
-│       │   └── 22012019_SponSleep_LFP
-│       └── video
-└── DrosSponSleep_SciAdvances2023_08
-    ├── 21_20022019_SponSleep_LFP
-    │   ├── lfp
-    │   │   ├── 20022019_SponSleep_Calib
-    │   │   │   └── Block-1
-    │   │   └── 20022019_SponSleep_LFP
-    │   └── video
-    └── 23_13032019_SponSleep_LFP
-        ├── lfp
-        │   ├── 13032019_SponSleep_Calib
-        │   │   └── Block-1
-        │   └── 13032019_SponSleep_LFP
-        └── video
+
+├── 02_27072018_SponSleep_LFP
+│   ├── lfp
+│   │   ├── 27072018_SponSleep_Calib
+│   │   │   
+│   │   └── 27072018_SponSleep_LFP
+│   └── video
+
+├── 03_14092018_SponSleep_LFP
+│   ├── lfp
+│   │   ├── 14092018_SponSleep_Calib
+│   │   │   
+│   │   └── 14092018_SponSleep_LFP
+│   └── video
+
+├── 04_17092018_SponSleep_LFP
+│   ├── lfp
+│   │   ├── 17092018_SponSleep_Calib
+│   │   │   
+│   │   └── 17092018_SponSleep_LFP
+│   └── video
+
+├── 06_30102018_SponSleep_LFP
+│   ├── lfp
+│   │   ├── 30102018_SponSleep_Calib
+│   │   │   
+│   │   └── 30102018_SponSleep_LFP
+│   └── video
+
+├── 07_01112018_SponSleep_LFP
+│   ├── lfp
+│   │   ├── 01112018_SponSleep_Calib
+│   │   │   
+│   │   └── 01112018_SponSleep_LFP
+│   └── video
+
+├── 08_03112018_SponSleep_LFP
+│   ├── lfp
+│   │   ├── 03112018_SponSleep_Calib
+│   │   │   
+│   │   └── 03112018_SponSleep_LFP
+│   └── video
+
+├── 09_13112018_SponSleep_LFP
+│   ├── lfp
+│   │   ├── 13112018_SponSleep_Calib
+│   │   │   
+│   │   └── 13112018_SponSleep_LFP
+│   └── video
+
+├── 12_28112018_SponSleep_LFP
+│   ├── lfp
+│   │   ├── 28112018_SponSleep_Calib
+│   │   │   
+│   │   └── 28112018_SponSleep_LFP
+│   └── video
+
+├── 14_11122018_SponSleep_LFP
+│   ├── lfp
+│   │   ├── 11122018_SponSleep_Calib
+│   │   │   
+│   │   └── 11122018_SponSleep_LFP
+│   └── video
+
+├── 15_13122018_SponSleep_LFP
+│   ├── lfp
+│   │   ├── 13122018_SponSleep_Calib
+│   │   │   
+│   │   └── 13122018_SponSleep_LFP
+│   └── video
+
+├── 16_18122018_SponSleep_LFP
+│   ├── lfp
+│   │   ├── 18122018_SponSleep_Calib
+│   │   │   
+│   │   └── 18122018_SponSleep_LFP
+│   └── video
+
+├── 17_10012019_SponSleep_LFP
+│   ├── lfp
+│   │   ├── 10012019_SponSleep_Calib
+│   │   │   
+│   │   └── 10012019_SponSleep_LFP
+│   └── video
+
+├── 18_17012019_SponSleep_LFP
+│   ├── lfp
+│   │   ├── 17012019_SponSleep_Calib
+│   │   │   
+│   │   └── 17012019_SponSleep_LFP
+│   └── video
+
+├── 19_22012019_SponSleep_LFP
+│   ├── lfp
+│   │   ├── 22012019_SponSleep_Calib
+│   │   │   
+│   │   └── 22012019_SponSleep_LFP
+│   └── video
+
+├── 21_20022019_SponSleep_LFP
+│   ├── lfp
+│   │   ├── 20022019_SponSleep_Calib
+│   │   │   
+│   │   └── 20022019_SponSleep_LFP
+│   └── video
+
+├── 23_13032019_SponSleep_LFP
+│   ├── lfp
+│   │   ├── 13032019_SponSleep_Calib
+│   │   │   
+│   │   └── 13032019_SponSleep_LFP
+│   └── video
 
 ```
-Each folder consists of a specific spontaneous sleep recording. For e.g. 06_30102018_SponSleep_LFP contains
-lfp and video recorded from a particular drosophila on 30-10-2018. Within each folder there are two subfolders.
+
+## Dataset collation
+To collate data for each fly follow the below steps:
+1. For e.g. lets take the data for the fly `23_13032019_SponSleep_LFP`, using the [dataset_details](https://github.com/SridharJagannathan/drosSleepStages_Datasettools_SciAdvances2023/blob/main/dataset_details.csv) we gather the specific DOI for the fly.
+2. Download the zip files: DrosSponSleep_SciAdvances2023_16_lfp_01.zip, DrosSponSleep_SciAdvances2023_16_lfp_02.zip, DrosSponSleep_SciAdvances2023_16_video_01.zip, DrosSponSleep_SciAdvances2023_16_video_02.zip
+3. Create a basefolder named as: `23_13032019_SponSleep_LFP`
+4. Within the basefolder create a LFP folder named as: `lfp`
+   * Create a calibfolder named as `13032019_SponSleep_Calib` within the LFP folder.
+   * Copy the contents of the folder `13032019_SponSleep_Calib` within the `DrosSponSleep_SciAdvances2023_16_lfp_01.zip` and put the same to the calibfolder.
+   * Create a sublfpfolder named as `13032019_SponSleep_LFP` within the LFP folder.
+   * Copy the contents of the folder `13032019_SponSleep_LFP` within the `DrosSponSleep_SciAdvances2023_16_lfp_01.zip` and put the same to the sublfpfolder.
+   * Copy the contents of the folder `13032019_SponSleep_LFP` within the `DrosSponSleep_SciAdvances2023_16_lfp_02.zip` and put the same to the sublfpfolder.
+
+5. Within the basefolder create a videofolder named as: `video`
+   * Copy the contents of the folder `23_13032019_SponSleep_LFP` within the `DrosSponSleep_SciAdvances2023_16_video_01.zip` and put the same to the videofolder.
+   * Copy the contents of the folder `23_13032019_SponSleep_LFP` within the `DrosSponSleep_SciAdvances2023_16_video_02.zip` and put the same to the videofolder.
+6. Thus, you will end up with a folder structure like below:
+   ```
+   ├── 23_13032019_SponSleep_LFP
+   │   ├── lfp
+   │   │   ├── 13032019_SponSleep_Calib
+   │   │   │   
+   │   │   └── 13032019_SponSleep_LFP
+   │   └── video
+
+   ```
+   
+## Dataset contents
+
+After the collation for individual fly, each folder consists of a specific spontaneous sleep recording. For e.g. 23_13032019_SponSleep_LFP contains
+lfp and video recorded from a particular drosophila on 13-03-2019. Within each folder there are two subfolders.
 * lfp: contains two further subfolders:
   * folder ending with `_Calib` contains lfp data recorded when calibration (electrode insertion) was performed as a single block.
   * folder ending with `_LFP` contains lfp data of the full recording, either as a single block or as multiple blocks (1 block per
@@ -145,4 +183,4 @@ lfp and video recorded from a particular drosophila on 30-10-2018. Within each f
 * Python 3.6.x
 
 ## Support
-* Please e-mail me incase you face any difficulty of extracting/utilising the dataset and I will try and get back to you in a few days
+* Please raise an issue incase you face any difficulty of extracting/utilising the dataset and I will try and get back to you in a few days.
