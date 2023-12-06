@@ -1,4 +1,5 @@
-# drosSleepStages_Datasettools_SciAdvances2023
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10277443.svg)](https://doi.org/10.5281/zenodo.10277443)
+
 Repository for extracting and using dataset described in the paper drosSleepStages_SciAdvances2023
 
 ## Dataset location
