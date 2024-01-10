@@ -160,7 +160,7 @@ lfp and video recorded from a particular drosophila on 13-03-2019. Within each f
   * folder ending with `_Calib` contains lfp data recorded when calibration (electrode insertion) was performed as a single block.
   * folder ending with `_LFP` contains lfp data of the full recording, either as a single block or as multiple blocks (1 block per
      recording hour).
-* video: contains movies in the form of `.avi` files and for each frame of the corresponding movie a `.csv` file containing recorded time of each frame. some recordings also contain files with `_Setup` and `_Calib` indicating videos recorded during setup and calibration of the experiment.
+* video: contains movies in the form of `.avi` files and for each frame of the corresponding movie a `.csv` file containing recorded time of each frame. The columns of the `.csv` file contain: year, month, date, hour, date, hour, minutes, seconds, microseconds and number of the frame in the corresponding columns `Year,Month,Date,Hour,Mins,Seconds,usec,nFrames`. Some recordings also contain files with `_Setup` and `_Calib` indicating videos recorded during setup and calibration of the experiment.
 
 ## Data extraction
 
