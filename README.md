@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10277443.svg)](https://doi.org/10.5281/zenodo.10277443)
 
-Repository for extracting and using dataset described in the paper drosSleepStages_SciAdvances2023
+Repository for extracting and using dataset described in the paper:   [![DOI:10.1126/sciadv.adj4399](https://zenodo.org/badge/DOI/10.1126/sciadv.adj4399.svg)](https://doi.org/10.1126/sciadv.adj4399)
 
 ## Dataset location
 The original dataset location is present as a multi-part series in `dryad`
